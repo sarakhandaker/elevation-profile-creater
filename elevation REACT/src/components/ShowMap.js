@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
-const key = "AIzaSyCNPw764tWFgGAWaU0FDrdiFF6IUSWD5Ms"
+const key = process.env.REACT_APP_GOOGLE_API_KEY
 
 const mapStyles = {
   width: '80%',
